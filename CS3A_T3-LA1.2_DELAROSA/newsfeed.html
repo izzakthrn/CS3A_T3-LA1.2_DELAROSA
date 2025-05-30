@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>iKonekt</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="header-title">iKonekt</div>
+      <div class="nav-icons">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Home" />
+        <img src="https://cdn-icons-png.flaticon.com/512/565/565422.png" alt="Notifications" />
+        <img src="https://cdn-icons-png.flaticon.com/512/542/542638.png" alt="Messages" />
+      </div>
+      <div class="user-section">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User Avatar" class="avatar" />
+        <button class="logout-btn">Logout</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="feed-container">
+      <!-- Post Creation -->
+      <div class="create-post">
+        <div class="post-input">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User Avatar" />
+          <input type="text" placeholder="What's on your mind?" />
+        </div>
+      </div>
+
+      <!-- Sample Posts -->
+      <div class="post">
+        <div class="post-header">
+          <div class="post-user">
+            <img src="resources/profile.jpg" alt="User Avatar" />
+            <div class="user-info">
+              <h4>izzakthrn</h4>
+              <p>18 mins ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="post-content">
+          <p>Basking in nature's raw beauty, I found peace among the rocks.This quiet moment under the sun reminded me to pause and appreciate stillness. Wearing my favorite floral top and bucket hat, I felt carefree and grounded. There’s something empowering about exploring unfamiliar places alone. And in that silence, I reconnected with my bold and gentle self.</p>
+          <img src="resources/mapisi_rock.jfif" alt="selfie" class="post-image" />
+        </div>
+        <div class="post-stats">
+          <span>24 interactions</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post-header">
+          <div class="post-user">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User Avatar" />
+            <div class="user-info">
+              <h4>Michael Chen</h4>
+              <p>5 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="post-content">
+          <p>Just published my latest article on machine learning advancements in healthcare. Check it out if you're interested in how AI is transforming medicine!</p>
+        </div>
+        <div class="post-stats">
+          <span>8 interactions</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/feed.js"></script>
+</body>
+</html>
